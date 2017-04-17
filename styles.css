@@ -1,3 +1,103 @@
 body {
-    background: yellow;
+    background: #ffffcc;
+    background-image: url('images/cork-wallet.png');
+    margin: 50px;
+}
+
+#top, #bottom, #left, #right {
+    background: #663300;
+    position: fixed;
+}
+
+#left, #right {
+    top: 0;
+    bottom: 0;
+    width: 15px;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+#top, #bottom {
+    left: 0;
+    right: 0;
+    height: 15px;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}
+
+a:link {
+    color: #00cc44;
+}
+
+a:visited {
+    color: #004d1a;
+}
+
+a:hover {
+    background-color: #ff66ff;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+hr {
+  margin: 10px;
+  border: none;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), #ccc 15%, #ccc 85%, rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5));
+        background-image: -moz-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), #ccc 15%, #ccc 85%, rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5)); 
+        background-image: -ms-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), #ccc 15%, #ccc 85%, rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5));
+        background-image: -o-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), #ccc 15%, #ccc 85%, rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5));
+}
+
+form {
+    padding: 10px;
+    padding-left: 40px;
+}
+
+footer {
+    margin: auto;
+    margin-top: 40px;
+    width: 25%;
+    text-align: left;
+}
+
+footer p {
+    margin: 10px;
+}
+
+li {
+    font-family: "Garamond";
+}
+
+.grayBorder {
+    border-width: 5px;
+    border-color: gray;
+    border-style: dashed;
+    max-width: 400px;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-image: none;
+    }
 }
